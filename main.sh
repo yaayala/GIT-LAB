@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo "this is my main project" > /tmp/prueba
+echo "this is my main project - with a webhook" > /tmp/prueba
