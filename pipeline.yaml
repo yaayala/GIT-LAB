@@ -1,0 +1,16 @@
+pipeline:
+  agent:
+    any:
+  stages:
+    - stage: "Primer Script"
+      steps:
+        script:
+          - echo "stage 1" > /tmp/prueba
+    - stage: "Segundo Script"
+      steps:
+        script:
+          - echo "stage 2" >> /tmp/prueba
+    - stage: "Tercer Script"
+      steps:
+        script:
+          - echo "stage 3" >> /tmp/prueba
